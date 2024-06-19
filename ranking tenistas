@@ -1,0 +1,117 @@
+git add pagina.html
+git commit -m  C:\Users\Administrador\Downloads\Tenistas.html
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking dos Top-10 Tenistas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tfoot td {
+            text-align: center;
+            font-weight: bold;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Ranking dos Top-10 Tenistas</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Nacionalidade</th>
+            <th>Pontos</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Novak Djokovic</td>
+            <td>36</td>
+            <td>Sérvia</td>
+            <td>12000</td>
+        </tr>
+        <tr>
+            <td>Carlos Alcaraz</td>
+            <td>20</td>
+            <td>Espanha</td>
+            <td>9000</td>
+        </tr>
+        <tr>
+            <td>Daniil Medvedev</td>
+            <td>28</td>
+            <td>Rússia</td>
+            <td>8500</td>
+        </tr>
+        <tr>
+            <td>Casper Ruud</td>
+            <td>25</td>
+            <td>Noruega</td>
+            <td>8200</td>
+        </tr>
+        <tr>
+            <td>Stefanos Tsitsipas</td>
+            <td>25</td>
+            <td>Grécia</td>
+            <td>8000</td>
+        </tr>
+        <tr>
+            <td>Alexander Zverev</td>
+            <td>27</td>
+            <td>Alemanha</td>
+            <td>7700</td>
+        </tr>
+        <tr>
+            <td>Andrey Rublev</td>
+            <td>26</td>
+            <td>Rússia</td>
+            <td>7500</td>
+        </tr>
+        <tr>
+            <td>Jannik Sinner</td>
+            <td>22</td>
+            <td>Itália</td>
+            <td>7300</td>
+        </tr>
+        <tr>
+            <td>Holger Rune</td>
+            <td>20</td>
+            <td>Dinamarca</td>
+            <td>7000</td>
+        </tr>
+        <tr>
+            <td>Taylor Fritz</td>
+            <td>26</td>
+            <td>EUA</td>
+            <td>6800</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="4">Data de coleta das informações: 16 de junho de 2024</td>
+        </tr>
+    </tfoot>
+</table>
+
+</body>
+</html>
